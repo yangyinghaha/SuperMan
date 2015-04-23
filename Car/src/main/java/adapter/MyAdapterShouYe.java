@@ -19,7 +19,7 @@ import java.util.Map;
 import utils.BitmapHelp;
 
 public class MyAdapterShouYe extends BaseAdapter {
-
+//dhashdhashdhahsdhah
 	private List<Map<String, Object>> mList = new ArrayList<Map<String, Object>>();
 	private Context mContext;
 	public BitmapUtils mBitmapUtils;
