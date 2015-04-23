@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:gravity="center_vertical"
+    android:paddingTop="5dp" 
+    android:paddingBottom="5dp" 
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/listview_item_Image"
+        android:layout_marginTop="5dp"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/listview_item_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/listview_item_Image"
+      	android:paddingLeft="5dp"
+        android:text="title" />
+
+    <TextView
+        android:id="@+id/listview_item_comments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/listview_item_Image"
+        android:paddingLeft="5dp"
+        android:text="comments" />
+    
+    <TextView
+        android:id="@+id/listview_item_Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="time" />
+    <ImageView
+        android:id="@+id/listview_item_channename"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:background="@drawable/channename_hangye" 
+         android:layout_alignParentBottom="true"
+         android:layout_toLeftOf="@id/listview_item_Time"
+         android:layout_marginRight="4dp"
+        
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/settings_btn1_color_disabled" android:state_pressed="false"></item>
+    <item android:drawable="@drawable/settings_btn1_color_pressed" android:state_pressed="true"></item>
+
+</selector>

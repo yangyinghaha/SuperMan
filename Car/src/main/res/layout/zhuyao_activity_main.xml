@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <CustomView.Titlebar
+        android:id="@+id/titlebar_main"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/radiogroup_main"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fafafa"
+        android:orientation="horizontal"
+        android:paddingBottom="0dp" >
+        <RadioButton
+            android:id="@+id/zixun_main"
+            android:background="@drawable/selector_zixun_main"
+            style="@style/radiogroup_main"
+            android:checked="true"/>
+        <RadioButton
+            android:id="@+id/luntan_main"
+            android:background="@drawable/selector_luntan_main"
+            style="@style/radiogroup_main"/>
+        <RadioButton
+            android:id="@+id/zhaoche_main"
+            android:background="@drawable/selector_zhaoche_main"
+            style="@style/radiogroup_main"/>
+        <RadioButton
+            android:id="@+id/youhui_main"
+            android:background="@drawable/selector_youhui_main"
+            style="@style/radiogroup_main"/>
+        <RadioButton
+            android:id="@+id/wode_main"
+            android:background="@drawable/selector_wode_main"
+            style="@style/radiogroup_main"/>
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_pstab_red">#88f04848</color>
+    <color name="color_title_blue">#ff007adf</color>
+    <color name="color_white">#fff</color>
+    <color name="color_hui">#eeeeee</color>
+    <!-- xlistview -->
+    <color name="transparent">#00000000</color>
+    <color name="background">#F7F4F0</color>
+    <color name="title_color">#333333</color>
+
+</resources>
